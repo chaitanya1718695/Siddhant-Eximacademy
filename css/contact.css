@@ -1,0 +1,373 @@
+/*
+Template Name:Seller
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+/*********************contact****************/
+
+.center_about {
+  padding-top:30px;
+  padding-bottom:10px;
+  background-color: white;
+}
+  
+#contact_page{
+ padding-top:40px;
+ padding-bottom:40px; 
+  }
+.contact_page_1i span i{
+  color:#f3b204;
+  font-size:45px;
+  }
+.contact_page_1i {
+ border:1px solid #eee;
+ padding:20px 15px; 
+  }
+.contact_page_1i h4{
+  margin-top:20px;
+  }
+  
+.blog_d_page_li3 hr{
+  margin-left:0;
+  }
+.contact_page_2{
+ margin-top:40px; 
+  }
+.blog_d_page_li3i .form-control{
+ margin-bottom:10px; 
+ height:45px;
+  }
+.form_1{
+ height:135px!important; 
+  }
+.contact_page_2i .form-control{
+  height:50px;
+  margin-top:15px;
+  }
+.contact_page_2i {
+ background:#f4f4f4; 
+ padding:20px 15px 25px 15px;
+  }
+.contact_page_2ii{
+ background:#111;
+ padding-top:8px; 
+ padding-bottom:8px;
+ text-align:center;
+  }
+.contact_page_2ii ul a{
+  background:#fff;
+  }
+.contact_page_3{
+ margin-top:30px; 
+  }
+/*********************contact_end****************/
+
+
+
+@media screen and (max-width : 767px){
+#contact_page{
+ text-align:center; 
+ padding-bottom:0;
+  }
+.contact_page_1i {
+ margin-top:10px; 
+  }
+.blog_d_page_li3 hr{
+ margin-left:auto;
+ }
+.contact_page_2i {
+ margin-top:15px; 
+  }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+
+ }
+ @media (min-width:992px) and (max-width:1200px) {
+
+ }
+@media (min-width:1201px) and (max-width:1310px) {
+
+ }
+
+
+
+
+
+ /*    my new css chnages  */
+
+.navbar-brand{
+  font-size: 25px;
+  margin-top: 10px;
+ 
+}
+
+
+
+
+
+/* my additional css */
+
+.button_1 {
+  margin-bottom: 20px; /* Adjust the value to control the spacing */
+
+}
+
+.mgt{
+  margin: 20px;
+}
+
+
+/* form css */
+.error-message {
+  color: red;
+  font-size: 1rem;
+
+  /* margin-top: 5px; */
+}
+
+
+
+
+.navbar-brand{
+  font-size: 25px;
+  margin-top: 10px;
+  margin-right: 10px;
+  
+
+ 
+}
+
+
+.navbar-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%; /* Ensure the container takes up the full width of its parent */
+}
+
+.navbar-content .logo {
+  height: 100px; /* Adjust the logo height */
+  margin-right: 10px; /* Space between the logo and the text */
+  margin-left: -80px;
+}
+
+.navbar-content .navbar-brand {
+  flex-grow: 1; /* Allows the text container to take up remaining space */
+  text-decoration: none; /* Optional: Remove underline from the link */
+  color: #000; /* Optional: Set the color of the text */
+  text-align: right; /* Aligns text to the right */
+}
+
+
+.navbar-nav{
+  padding: 20px;
+}
+
+
+
+
+
+/* General Footer Styling */
+.footer_2 {
+  display: flex;
+  flex-wrap: wrap; /* Allow columns to wrap on smaller screens */
+  justify-content: space-between;
+  align-items: flex-start; /* Align items to the start */
+  padding: 20px;
+  background: #f1d68f; /* Light background for footer */
+  color: white; /* White text color */
+  margin-bottom: 0; /* Remove extra margin at the bottom */
+}
+
+.footer_2 .col-sm-4 {
+  flex: 1; /* Make each column take up equal space */
+  padding: 0 10px; /* Add horizontal padding between columns */
+  box-sizing: border-box; /* Include padding in width calculation */
+  min-width: 250px; /* Ensure columns are not too narrow */
+}
+
+.footer_2i {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer_2i .navbar-brand {
+  font-size: 2rem; /* Larger font size for brand */
+  color: white;
+  text-decoration: none;
+}
+
+.footer_2i p {
+  font-size: 1.5rem; /* Larger font size for paragraph text */
+  margin: 10px 0;
+}
+
+.social-network {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+  display: flex;
+  flex-wrap: wrap; /* Wrap icons on smaller screens */
+}
+
+.social-network li {
+  margin: 5px; /* Adjust space between icons */
+}
+
+.social-network a {
+  color: white;
+  font-size: 2rem; /* Larger font size for social icons */
+  text-decoration: none;
+}
+
+.social-network a:hover {
+  color: #efc14e; /* Highlight color on hover */
+}
+
+.footer_2i1 h4 {
+  font-size: 1.75rem; /* Larger font size for headings */
+  margin-bottom: 10px;
+}
+
+.footer_2i1 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer_2i1 ul li {
+  margin-bottom: 12px; /* Slightly larger spacing between links */
+}
+
+.footer_2i1 ul li a {
+  color: rgb(13, 11, 11);
+  text-decoration: none;
+  font-size: 1.5rem; /* Adjust font size for links */
+}
+
+.footer_2i1 ul li a:hover {
+  color: #efc14e; /* Highlight color on hover */
+}
+
+.logo1 {
+  height: 250px; /* Increased height of logo */
+  width: auto; /* Maintain aspect ratio */
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .footer_2 {
+    flex-direction: column; /* Stack columns vertically on medium screens */
+    align-items: center; /* Center align items */
+  }
+
+  .footer_2 .col-sm-4 {
+    width: 100%; /* Full width for each column */
+    padding: 10px 0; /* Adjust padding for better spacing */
+  }
+
+  .social-network {
+    justify-content: center; /* Center social icons on smaller screens */
+  }
+
+  .social-network li {
+    margin: 5px; /* Reduce space between icons */
+  }
+
+  .footer_2i .navbar-brand {
+    font-size: 1.75rem; /* Adjust font size for smaller screens */
+  }
+
+  .footer_2i p {
+    font-size: 1.25rem; /* Adjust font size for smaller screens */
+  }
+
+  .footer_2i1 h4 {
+    font-size: 1.5rem; /* Adjust font size for smaller screens */
+  }
+
+  .footer_2i1 ul li a {
+    font-size: 1.25rem; /* Adjust font size for smaller screens */
+  }
+
+  .logo1 {
+    height: 200px; /* Adjust height of logo for smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .footer_2 .col-sm-4 {
+    padding: 10px 5px; /* Adjust padding for smaller screens */
+  }
+
+  .footer_2i .navbar-brand {
+    font-size: 1.5rem; /* Adjust font size for smaller screens */
+  }
+
+  .footer_2i p {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+  }
+
+  .footer_2i1 h4 {
+    font-size: 1.25rem; /* Adjust font size for smaller screens */
+  }
+
+  .footer_2i1 ul li a {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+  }
+
+  .logo1 {
+    height: 180px; /* Adjust height of logo for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .footer_2 {
+    padding: 15px; /* Adjust padding for very small screens */
+  }
+
+  .social-network {
+    justify-content: center; /* Center social icons on very small screens */
+  }
+
+  .social-network li {
+    margin: 5px; /* Adjust space between icons */
+  }
+
+  .footer_2i .navbar-brand {
+    font-size: 1.25rem; /* Adjust font size for very small screens */
+  }
+
+  .footer_2i p {
+    font-size: 1rem; /* Adjust font size for very small screens */
+  }
+
+  .footer_2i1 h4 {
+    font-size: 1.125rem; /* Adjust font size for very small screens */
+  }
+
+  .footer_2i1 ul li a {
+    font-size: 1rem; /* Adjust font size for very small screens */
+  }
+
+  .logo1 {
+    height: 150px; /* Adjust height of logo for very small screens */
+  }
+}
+
+/* Specific text color adjustments */
+.footer_1 h4 {
+  color: #000; /* Black color for section headings */
+}
+
+.footer_1 h6 {
+  color: #000; /* Black color for contact details */
+}
+
+.footer_1 p {
+  color: #000; /* Black color for any additional paragraphs */
+}
