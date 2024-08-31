@@ -82,6 +82,153 @@ font-size:12px;
 
 
 
+
+
+
+
+ .news_h1li {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.news_h1li iframe {
+  width: 100%;
+  height: 310px; /* Set a fixed height */
+  max-height: 500px; /* Define a maximum height */
+  border: none; /* Optional: Removes border */
+}
+
+.news_h1li1l {
+  background: #fafafa;
+  padding: 5px 10px 15px 10px;
+}
+
+.news_h1li1r h6 a {
+  color: #f3b204;
+}
+
+.news_h1li1r {
+  padding: 10px;
+}
+
+@media (max-width: 767px) {
+  .news_h1 {
+    flex-direction: column;
+  }
+
+  .news_h1l {
+    width: 100%;
+  }
+
+  .news_h1li iframe {
+    height: auto;
+    max-height: 250px; /* Adjusted for smaller screens */
+  }
+
+  #about_page {
+    margin-bottom: 0;
+  }
+
+  .news_h1li1l {
+    position: static;
+    margin-top: 10px;
+  }
+
+  .news_h1li1l ul li {
+    display: inline-block;
+  }
+
+  .news_h1 img {
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .news_h1li1l ul li {
+    font-size: 12px;
+  }
+
+  .news_h1li1l {
+    padding: 5px 5px 15px 5px;
+  }
+}
+
+
+
+
+/* Main styles for the page */
+.center_about {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+#about_page {
+  margin-bottom: 100px;
+}
+.news_h1 {
+  margin-top: 30px;
+  position: relative;
+}
+.news_h1 img {
+  margin-top: 0;
+}
+.news_h1li1l {
+  background: #fafafa;
+  padding: 5px 10px 15px 10px;
+  position: absolute;
+  bottom: -90px;
+}
+.news_h1li1l ul li {
+  margin-bottom: 5px;
+}
+.news_h1li1l ul li a:hover {
+  color: #f3b204;
+}
+.news_h1li1l ul li a i {
+  color: #f3b204;
+  margin-right: 5px;
+}
+.news_h1li1r h6 a {
+  color: #f3b204;
+}
+.news_h1li {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.news_h1li iframe {
+  width: 100%;
+  height: 315px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 767px) {
+  .news_h1li1l {
+      position: static;
+      margin-top: 10px;
+  }
+  .news_h1li1l ul li {
+      display: inline-block;
+  }
+  .news_h1 img {
+      margin-top: 10px;
+  }
+  #about_page {
+      margin-bottom: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .news_h1li1l ul li {
+      font-size: 12px;
+  }
+  .news_h1li1l {
+      padding: 5px 5px 15px 5px;
+  }
+}
+
+
+
+
+
+
  /*    my new css chnages  */
 
  .navbar-brand{

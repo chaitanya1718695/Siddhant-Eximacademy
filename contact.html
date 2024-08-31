@@ -199,43 +199,63 @@
 	 </div>
 	</div>
 
-	<div class="contact_page_2 clearfix">
-		<div class="col-sm-12">
-		  <div class="blog_d_page_li3 clearfix">
-			<div class="about_h clearfix">
-			  <h3 class="mgt"><center>Send Your Message</center></h3>
+	<div class="contact_page clearfix">
+		<div class="row"> <!-- Add row for proper alignment -->
+		  <!-- Form Section -->
+		  <div class="col-sm-6"> <!-- Left side (Form) -->
+			<div class="blog_d_page_li3 clearfix">
+			  <div class="about_h clearfix">
+				<h3 class="mgt">
+				  <center>Send Your Message</center>
+				</h3>
+			  </div>
+			  <form id="contactForm"  reset(); return false;">
+				<div class="blog_d_page_li3i clearfix">
+				  <div class="col-sm-6 space_left">
+					<input class="form-control" type="text" id="name"  placeholder="Name" autocomplete="off" required min="5" max="30">
+					<span class="error-message" id="nameError"></span>
+					
+				  </div>
+				  <div class="col-sm-6 space_right">
+					<input class="form-control" type="text" id="phone" placeholder="Phone" autocomplete="off" required min="10" max="10">
+					<span class="error-message" id="phoneError"></span>
+				  </div>
+				</div>
+				<div class="blog_d_page_li3i clearfix">
+				  <div class="col-sm-6 space_left">
+					<input class="form-control" type="email" id="email" placeholder="Email" autocomplete="off" required>
+					<span class="error-message" id="emailError"></span>
+				  </div>
+				  <div class="col-sm-6 space_right">
+					<input class="form-control" type="text" id="subject" placeholder="Subject" autocomplete="off" required>
+					<span class="error-message" id="subjectError"></span>
+				  </div>
+				</div>
+				<div class="blog_d_page_li3i clearfix">
+				  <div class="col-sm-12 space_all">
+					<textarea id="message" placeholder="Message" class="form-control form_1" autocomplete="off" required></textarea>
+					<span class="error-message" id="messageError"></span>
+					<h5>
+					  <button class="button_1" type="submit"><span>SEND MESSAGE</span> <i class="fa fa-chevron-right"></i></button>
+					</h5>
+				  </div>
+				</div>
+			  </form>
 			</div>
-			<form id="contactForm" onsubmit="sendEmail(); reset(); return false; ">
-			  <div class="blog_d_page_li3i clearfix">
-				<div class="col-sm-6 space_left">
-				  <input class="form-control" type="text" id="name" placeholder="Name">
-				  <span class="error-message" id="nameError"></span>
-				</div>
-				<div class="col-sm-6 space_right">
-				  <input class="form-control" type="text" id="phone" placeholder="Phone">
-				  <span class="error-message" id="phoneError"></span>
-				</div>
-			  </div>
-			  <div class="blog_d_page_li3i clearfix">
-				<div class="col-sm-6 space_left">
-				  <input class="form-control" type="text" id="email" placeholder="Email">
-				  <span class="error-message" id="emailError"></span>
-				</div>
-				<div class="col-sm-6 space_right">
-				  <input class="form-control" type="text" id="subject" placeholder="Subject">
-				  <span class="error-message" id="subjectError"></span>
-				</div>
-			  </div>
-			  <div class="blog_d_page_li3i clearfix">
-				<div class="col-sm-12 space_all">
-				  <textarea id="message" placeholder="Message" class="form-control form_1"></textarea>
-				  <span class="error-message" id="messageError"></span>
-				  <h5>
-					<button class="button_1" type="submit"><span>SEND MESSAGE</span> <i class="fa fa-chevron-right"></i></button>
-				  </h5>
-				</div>
-			  </div>
-			</form>
+		  </div>
+	  
+		  <!-- Map Section -->
+		  <div class="col-sm-6"> <!-- Right side (Map) -->
+			<iframe
+			  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.346911958834!2d74.63014111568554!3d18.222068187040006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdc2a40ae97a5c7%3A0xd54ea5e4c98c8a2!2sRATANLAL%20TRADERS!5e0!3m2!1sen!2sin!4v1691421580655!5m2!1sen!2sin"
+			  width="100%"
+			  height="450px"
+			  frameborder="0"
+			  style="border:0"
+			  allowfullscreen=""
+			  aria-hidden="false"
+			  tabindex="0">
+			</iframe>
 		  </div>
 		</div>
 	  </div>
@@ -269,26 +289,7 @@
 
 		
 		
-		<div class="contact_page_3 clearfix">
-			<div class="col-sm-12">
-				<iframe 
-					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.346911958834!2d74.63014111568554!3d18.222068187040006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdc2a40ae97a5c7%3A0xd54ea5e4c98c8a2!2sRATANLAL%20TRADERS!5e0!3m2!1sen!2sin!4v1691421580655!5m2!1sen!2sin" 
-					width="100%" 
-					height="450px" 
-					frameborder="0" 
-					style="border:0" 
-					allowfullscreen=""
-					aria-hidden="false"
-					tabindex="0">
-				</iframe>
-			</div>
-		</div>
 		
-	</div>
-	
-	
-	 </div>
-	</div>
 	
   </div>
  </div>
@@ -378,43 +379,7 @@
 		</div>
 	</div>
 </div>
-	<!-- <div class="col-sm-3">
-	 <div class="footer_2i1 clearfix">
-	   <h4 class="mgt">SUBSCRIPTION</h4>
-	   <hr>
-	   <p>Praesent libero Sed cursus ante dapibus diam.</p>
-	   <input class="form-control" placeholder="Email" type="text">
-	   <h5><a class="button_2" href="#"><span>SUBSCRIBE</span> <i class="fa fa-chevron-right"></i></a></h5>
-	 </div>
-	</div>
-	<div class="col-sm-3">
-	 <div class="footer_2i1 clearfix">
-	   <h4 class="mgt">INSTAGRAM</h4>
-	   <hr>
-	   <div class="footer_2i1i clearfix">
-	    <div class="col-sm-4 space_left">
-		 <img src="img/20.jpg" alt="abc" class="iw">
-		</div>
-		<div class="col-sm-4 space_left">
-		 <img src="img/21.jpg" alt="abc" class="iw">
-		</div>
-		<div class="col-sm-4 space_left">
-		 <img src="img/22.jpg" alt="abc" class="iw">
-		</div>
-	   </div>
-	   <div class="footer_2i1i clearfix">
-	    <div class="col-sm-4 space_left">
-		 <img src="img/23.jpg" alt="abc" class="iw">
-		</div>
-		<div class="col-sm-4 space_left">
-		 <img src="img/24.jpg" alt="abc" class="iw">
-		</div>
-		<div class="col-sm-4 space_left">
-		 <img src="img/25.jpg" alt="abc" class="iw">
-		</div>
-	   </div>
-	 </div>
-	</div> -->
+	
    </div>
   </div>
  </div>

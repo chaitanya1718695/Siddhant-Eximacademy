@@ -8,7 +8,7 @@ Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152
 */
 /*********************center_home****************/
 .center_home{
-   background-image: url(../img/import1.jpg);
+   background-image: url(../img/main.jpg);
    background-position:center;
   }
 .center_hm{
@@ -28,6 +28,10 @@ color:#fff;
 
 .center_h1 ul a {
  background-color: #f1d68f;
+}
+
+.iw {
+  
 }
 
 /*********************center_home_end****************/
